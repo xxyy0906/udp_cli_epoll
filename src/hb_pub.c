@@ -7,8 +7,8 @@
 #include <unistd.h>
 #include <arpa/inet.h>
 #include <pthread.h>
-#include "hb_pub.h"
-#include "list.h"
+#include "../include/hb_pub.h"
+#include "../include/list.h"
 
 hb_op_s *MASTER_HB_TableList = NULL;
 

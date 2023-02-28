@@ -3,8 +3,8 @@
 #include <string.h>
 #include <netinet/in.h>
 #include <sys/socket.h>
-#include "hb_pub.h"
-#include "list.h"
+#include "./include/hb_pub.h"
+#include "./include/list.h"
 
 #define SERVER_IP       "192.168.177.1"
 #define SERVER_PORT     50018
